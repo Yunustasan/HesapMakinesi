@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hesap Makinesi</title>
+    </head>
+    <body>
+        <form name="calculator">
+            
+            
+            <table style="border: 3px solid black;">
+                <caption><input style=" border: 3px solid black; width: 100px;"  type="textfield" name="ans" value=""></caption>
+            <tr>
+            <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="1" onclick="document.calculator.ans.value+='1'"> </td> 
+            <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="2" onclick="document.calculator.ans.value+='2'"> </td> 
+            <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="3" onclick="document.calculator.ans.value+='3'">  </td>  
+            <td><input style="border: 2px solid black; background-color: gray; color: #000000; width: 23px;" type="button" class="operator"  value="/" onclick="document.calculator.ans.value+='/'"></td>
+            </tr>
+
+            <tr>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="4" onclick="document.calculator.ans.value+='4'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="5" onclick="document.calculator.ans.value+='5'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="6" onclick="document.calculator.ans.value+='6'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000; width: 23px;" type="button" class="operator"  value="-" onclick="document.calculator.ans.value+='-'"></td>
+            </tr>
+
+            <tr>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="7" onclick="document.calculator.ans.value+='7'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="8" onclick="document.calculator.ans.value+='8'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="number"  value="9" onclick="document.calculator.ans.value+='9'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="operator"  value="+" onclick="document.calculator.ans.value+='+'"></td>
+            </tr>
+
+            <tr>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000; width: 23px;" type="button" class="operator"  value="." onclick="document.calculator.ans.value+='.'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" class="sıfır" value="0" onclick="document.calculator.ans.value+='0'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000; width: 23px;" type="button" class="operator"  value="*" onclick="document.calculator.ans.value+='*'"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000; width: 23px; " type="reset" value="C"></td>
+                <td><input style="border: 2px solid black; background-color: gray; color: #000000;" type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)"></td>
+            </tr>
+            </table>
+            
+            
+            
+            
+            
+            
+ 
+
+        </form>
+
+       
+        
+
+
+
+
+
+
+
+
+    </body>
+   </html>
